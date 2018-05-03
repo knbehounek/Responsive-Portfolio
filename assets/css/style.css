@@ -1,0 +1,484 @@
+/*Basic CSS*/
+
+body{
+    background: url("D:/Coding Bootcamp/Basic-Portfolio/assets/images/dust_scratches.png");
+    margin: 0;
+}
+
+.container{
+    max-width: 960px;
+    width: 96%;
+    margin: auto;
+}
+
+
+header{
+    height: 121px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-bottom: #666666 solid 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.name{
+    float: left;
+    margin-top: 45px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin-left: 0;
+    padding: 26px;
+    font-size: 30px;
+}
+
+nav{
+    float: right;
+    line-height: 70px;
+    margin-right: auto;
+}
+
+nav li{
+    margin-top: 80px;
+    display: inline-block;
+    padding-right: 13px;
+    margin-left: 10px;
+    line-height: normal;
+}
+
+a {
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#About{
+    border-right:  solid 1px;
+}
+
+#Portfolio{
+    border-right: #777777 solid 1px;
+}
+
+#main{
+    width: 960px;
+    margin: auto;
+}
+
+#content{
+    background-color: #ffffff;
+    border: solid 2px #dddddd;
+    clear: both;
+    overflow: auto;
+    margin-top: 50px;
+    margin-bottom: 125px;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+
+#content{
+    background-color: #ffffff;
+    border: solid 2px #dddddd;
+    clear: both;
+    overflow: auto;
+    margin-top: 50px;
+    margin-bottom: 125px;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+#apc{
+    color: #4aaaa5;
+    text-align: left;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    border-bottom: solid 2px #777777;
+    clear: both;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+label{
+    margin-top: 15px;
+    color: #777777;
+    margin-left: 2.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#name{
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+#Email{
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+#Subject{
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=submit]{
+    height: 45px;
+    width: 85px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    margin-left: 2.5%;
+    margin-bottom: 20px;
+}
+
+input:hover[type=submit]{
+    height: 45px;
+    width: 85px;
+    font-size: 18px;
+    color: #4aaaa5;
+    background-color: #777777;
+    margin-left: 2.5%;
+    margin-bottom: 20px;
+}
+
+#selfpic{
+    height: 240px;
+    width: 240px;
+    float: left;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+#space1{
+    border: #777777 solid 2px;
+    margin-top: 50px;
+   
+}
+
+#space2{
+    border: #777777 solid 2px;
+    margin-top: 50px;
+}
+
+#space3{
+    border: #777777 solid 2px;
+
+}
+
+#space4{
+    border: #777777 solid 2px;
+}
+
+#space5{
+    border: #777777 solid 2px;
+}
+
+.imagecontainer{
+    position: relative;
+    float: left;
+    margin-left: 3%;
+    margin-bottom: 2.5;
+}
+
+.projectrow{
+    clear: both;
+}
+
+.banner{
+    position: absolute;
+    height: 20px;
+    padding: 30px;
+    width: 205px;
+    left: 0;
+    bottom: 20px;
+    background-color: #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.banner:hover{
+    position: absolute;
+    height: 20px;
+    padding: 30px;
+    width: 205px;
+    left: 0;
+    bottom: 20px;
+    background-color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+}
+
+#contenttext{
+    padding-top: 50px;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    line-height: 2;
+    padding-left: 20px;
+}
+
+
+footer{
+    line-height: 100px;
+    height: 75px;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    border-top: solid 12px #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+
+/*First Media Query for 980px*/
+
+@media only screen and (max-width:980px){
+
+#content{
+    width: 620px;
+    margin-left: 30px;
+}
+#space1{
+    border: #777777 solid 2px;
+    margin-top: 50px;
+    width: 262px;
+    height: 262px;
+}
+
+#space2{
+    border: #777777 solid 2px;
+    margin-top: 50px;
+    width: 262px;
+    height: 262px; 
+    margin-left: 25px;      
+}
+
+#space3{
+    margin-top: 50px;
+    border: #777777 solid 2px;
+    width: 262px;
+    height: 262px;
+}
+
+#space4{
+    margin-top: 50px;
+    border: #777777 solid 2px;
+    width: 262px;
+    height: 262px;
+    margin-left: 25px;
+}
+
+#space5{
+    margin-top: 50px;
+    border: #777777 solid 2px;
+    width: 262px;
+    height: 262px;
+}
+
+.imagecontainer{
+    position: relative;
+    float: left;
+    margin-left: 3%;
+    margin-bottom: 2.5;
+}
+
+.banner{
+    position: absolute;
+    height: 20px;
+    padding: 30px;
+    width: 205px;
+    left: 0;
+    bottom: 20px;
+    background-color: #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+#banner2{
+    left: 25px;
+}
+
+#banner3{
+    left: 25px;
+}
+
+}
+
+/*Second Media Query for 768px*/
+
+@media only screen and (max-width:768px){
+.container{
+    width: 740px;
+}
+#content{
+    width: 740px
+}
+}
+
+/*Third Media Query for 640px*/
+
+@media only screen and (max-width:640px){
+.container{
+    width: 640px;
+    max-width: 400px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+header{
+    height: 130px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    overflow: auto;
+    border-bottom: #666666 solid 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.name{
+    margin: 0;
+    float: none;
+    margin-top: 0;
+    width: 417px;
+    text-align: center;
+}
+
+nav{
+    margin-top: 10px;
+    width: 380px;
+    float: right;
+    text-align: center;
+    line-height: 0px;
+    margin-right: auto;
+}
+
+nav li{
+    margin-top: 0px;
+    display: inline-block;
+    padding-right: 13px;
+    margin-left: 10px;
+    line-height: normal;
+}
+
+#content{
+    width: 620px;
+    max-width: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+#apc{
+    text-align: left;
+    font-weight: bolder;
+}
+
+#selfpic{
+    float: none;
+    margin-left: 5px;
+    width: 355px;
+    height: 355px;
+    
+}
+.imagecontainer{
+    float: none;
+
+}
+
+#space1{
+    border: #777777 solid 2px;
+    margin-top: 50px;
+    width: 350px;
+    height: 350px;
+}
+
+#space2{
+    border: #777777 solid 2px;
+    margin-left: 0;
+    margin-top: 50px;
+    width: 350px;
+    height: 350px;       
+}
+
+#space3{
+    margin-top: 50px;
+    border: #777777 solid 2px;
+    width: 350px;
+    height: 350px;
+}
+
+#space4{
+    margin-left: 0;
+    margin-top: 50px;
+    border: #777777 solid 2px;
+    width: 350px;
+    height: 350px;
+}
+
+#space5{
+    margin-top: 50px;
+    border: #777777 solid 2px;
+    width: 350px;
+    height: 350px;
+}
+
+.banner{
+    position: absolute;
+    height: 20px;
+    padding: 30px;
+    width: 292px;
+    left: 0;
+    bottom: 20px;
+    background-color: #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.banner:hover{
+    position: absolute;
+    height: 20px;
+    padding: 30px;
+    width: 292px;
+    left: 0;
+    bottom: 20px;
+    background-color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+}
+
+#banner2{
+    left: 0;
+}
+#banner3{
+    left: 0;
+}
+
+
+}
+
