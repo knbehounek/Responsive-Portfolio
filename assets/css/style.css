@@ -255,7 +255,7 @@ footer{
 @media only screen and (max-width:980px){
 
 #content{
-    width: 620px;
+    width: 80%;
     margin-left: 30px;
 }
 #space1{
@@ -323,18 +323,95 @@ footer{
 #banner3{
     left: 25px;
 }
-
 }
 
 /*Second Media Query for 768px*/
 
 @media only screen and (max-width:768px){
 .container{
-    width: 740px;
 }
 #content{
-    width: 740px
+    width: 60%;
 }
+
+.name{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 26px;
+    font-size: 30px;
+}
+
+nav{
+    float: none;
+    border: indigo solid 2px;
+}
+
+#space1{
+    border: #777777 solid 2px;
+    margin-top: 50px;
+    width: 240px;
+    height: 240px;
+}
+
+#space2{
+    border: #777777 solid 2px;
+    margin-top: 50px;
+    width: 240px;
+    height: 240px; 
+    margin-left: 25px;      
+}
+
+#space3{
+    margin-top: 50px;
+    border: #777777 solid 2px;
+    width: 240px;
+    height: 240px;
+}
+
+#space4{
+    margin-top: 50px;
+    border: #777777 solid 2px;
+    width: 240px;
+    height: 240px;
+    margin-left: 25px;
+}
+
+#space5{
+    margin-top: 50px;
+    border: #777777 solid 2px;
+    width: 240px;
+    height: 240px;
+}
+
+.banner{
+    position: absolute;
+    height: 20px;
+    padding: 30px;
+    width: 183px;
+    left: 0;
+    bottom: 20px;
+    background-color: #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.banner:hover{
+    position: absolute;
+    height: 20px;
+    padding: 30px;
+    width: 183px;
+    left: 0;
+    bottom: 20px;
+    background-color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+}
+
+
 }
 
 /*Third Media Query for 640px*/
@@ -342,16 +419,20 @@ footer{
 @media only screen and (max-width:640px){
 .container{
     width: 640px;
-    max-width: 400px;
+    max-width: 100%;
     margin-left: 0;
     margin-right: 0;
 }
+
+#content{
+    width: 39%;
+}
+
 
 header{
     height: 130px;
     background-color: #ffffff;
     margin-bottom: 20px;
-    overflow: auto;
     border-bottom: #666666 solid 2px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     
@@ -361,7 +442,7 @@ header{
     margin: 0;
     float: none;
     margin-top: 0;
-    width: 417px;
+    width: 100%;
     text-align: center;
 }
 
@@ -383,8 +464,6 @@ nav li{
 }
 
 #content{
-    width: 620px;
-    max-width: 400px;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -397,7 +476,6 @@ nav li{
 
 #selfpic{
     float: none;
-    margin-left: 5px;
     width: 355px;
     height: 355px;
     
